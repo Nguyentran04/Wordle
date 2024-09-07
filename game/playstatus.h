@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 using namespace std; 
-
+//handling the keyboard
 void status_update(string& game_stats){
     fstream update_file; 
     update_file.open("playstatus.txt", std::ios::out);
